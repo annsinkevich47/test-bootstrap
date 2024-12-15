@@ -42,12 +42,6 @@
     border-radius: 0 0 10px 10px;
     overflow: hidden;
 }
-.imageCosmos {
-    height: 50%;
-}
-.textBlock {
-    height: fit-content;
-}
-.wrapperCard {
-    height: fit-content;
+.textWrapper {
+    min-height: 600px;
 }
