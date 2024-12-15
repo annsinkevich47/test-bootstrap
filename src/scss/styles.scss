@@ -4,7 +4,50 @@
     min-height: 60px;
 }
 .home {
-    height: 50vh;
-    background: url(../assets/images/image.webp) no-repeat center center fixed;
-    background-size: cover;
+    height: 60vh;
+}
+.buyItem {
+    color: rgb(184, 46, 60);
+}
+.rounded-custom {
+    border-radius: 0 30px 0 30px;
+}
+.btn-blue {
+    background-color: #2c78c9;
+    border: none;
+    color: white;
+}
+.btn-blue:hover {
+    background-color: #054c97;
+    transition: all 0.5s;
+}
+.btn-purple {
+    background-color: #6a0dad;
+    border: none;
+    color: white;
+}
+.btn-purple:hover {
+    background-color: #580b9e;
+    transition: all 0.5s;
+}
+.text-black-color {
+    color: #000;
+    transition: all 0.5s;
+    &:hover {
+       color: #535151;
+    }
+}
+.shadow-bottom {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+}
+.imageCosmos {
+    height: 50%;
+}
+.textBlock {
+    height: fit-content;
+}
+.wrapperCard {
+    height: fit-content;
 }
